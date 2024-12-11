@@ -1,0 +1,37 @@
+/* John Renzel M. Fangon 
+/* CC2 1B
+
+public class Invoice {
+
+    public static void main(String[] args) {
+
+        // Store Information
+        System.out.println("\"Tech Store\"");
+        System.out.println("1234 Elm Street");
+        System.out.println("Springfield, IL 62701\n");
+
+        // Itemized List
+        System.out.println("Items Purchased:\n");
+        System.out.println("Item\t\tQuantity\tPrice");
+        System.out.println("--------------------------------------");
+        System.out.println("Laptop\t\t1\t\t$1000.00");
+        System.out.println("Headphones\t2\t\t$50.00");
+        System.out.println("Mouse\t\t1\t\t$25.00");
+        System.out.println("Keyboard\t1\t\t$75.00\n");
+
+        // Calculate the total
+        double laptopPrice = 1000.00;
+        double headphonesPrice = 50.00 * 2;  // 2 headphones
+        double mousePrice = 25.00;
+        double keyboardPrice = 75.00;
+        
+        double totalAmount = laptopPrice + headphonesPrice + mousePrice + keyboardPrice;
+
+        // Total Amount
+        System.out.println("Total Amount Due:\t\t$" + totalAmount + "\n");
+
+        // Thank you message
+        System.out.println("Thank you for shopping with us!");
+        System.out.println("Visit us again soon!");
+    }
+}
